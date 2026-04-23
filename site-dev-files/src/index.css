@@ -1,0 +1,21 @@
+:root{
+  --color-gray-d: #18151a;
+  --color-gray-m: #27222b;
+
+  --color-green-d: #52ebad;
+  --color-green-m: #9bf3d0;
+  --color-green-l: #ccfae8;
+
+  --color-purple-d: #8b50eb;
+  --color-purple-m: #b892f2;
+  --color-purple-l: #ddccfa;
+
+  --color-red-d: #eb5252;
+  --color-red-m: #f39b9b;
+  --color-red-l: #facccc;
+
+  --color-body-background: var(--color-gray-d);
+  --color-section-background: var(--color-gray-m);
+  --color-p: #ffffff;
+
+}
