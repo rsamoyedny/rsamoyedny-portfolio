@@ -45,7 +45,7 @@ function ProjectData({ project }: { project: project }) {
 function FeaturedWork({ project }: { project: project }) {
   return (
     <>
-      <h2>Featured Work</h2>
+      <h2>Featured Project</h2>
       <ProjectData project={project} />
     </>
   )
@@ -69,11 +69,11 @@ function ProjectsList({ projects }: { projects: project[] | null }) {
 }
 
 function App() {
-  const [featuredWork, setFeaturedWork] = useState<project | null>(null);
+  const [featuredProject, setFeaturedProject] = useState<project | null>(null);
   const [projectsList, setProjectsList] = useState<project[] | null>(null);
 
   useEffect(() => {
-    setFeaturedWork(projectJSON.featuredWork as project);
+    setFeaturedProject(projectJSON.featuredProject as project);
     setProjectsList(projectJSON.projectsList as project[]);
   }, [])
 
@@ -94,12 +94,12 @@ function App() {
         <section id="about-me">
           <h2>About Me</h2>
           <div className='med-background'>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, est quaerat. Soluta, mollitia excepturi consectetur porro repellat quod eos dolorum? Dolor a tenetur ipsa, ut rem aliquam dolorem obcaecati numquam iste repellat.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, est quaerat. Soluta, mollitia excepturi consectetur porro repellat quod eos dolorum? Dolor a tenetur ipsa, ut rem aliquam dolorem obcaecati numquam iste repellat.</p>
+            <p>Hello! I'm Ryan Samoyedny, a Game Design and Development Student at RIT. I have interests in web development, game programming, and 3D art. I have experience in Unity, MonoGame, Maya, Blender, Vite, and React. For languages, I have used: C#, C++, Python, HTML, CSS, JavaScript, and TypeScript for past projects.</p>
+            <p>Outside of games, I like to crochet and knit. I'm also the Vice President for <a href="https://campusgroups.rit.edu/han/home/">Hooks and Needles</a> at RIT.</p>
           </div>
         </section>
-        {featuredWork ? <section id="featured-project">
-          <FeaturedWork project={featuredWork} />
+        {featuredProject ? <section id="featured-project">
+          <FeaturedWork project={featuredProject} />
         </section> : <></>}
         {projectsList ? <section id="other-projects">
           <ProjectsList projects={projectsList} />
@@ -110,7 +110,7 @@ function App() {
           <li><a href="https://github.com/rsamoyedny">GitHub</a></li>
           <li><a href="https://ry313.itch.io/">itch.io</a></li>
           <li><a href="https://www.linkedin.com/in/rsamoyedny/">LinkedIn</a></li>
-          <li><a href="">My Resume</a></li>
+          <li><a href="https://docs.google.com/document/d/10kD735E6_40acvlUz19-Lwtp1zcuFUmJMMnXnfeY4LI/export?format=pdf&attachment=false">My Resume</a></li>
         </ul>
       </footer>
     </>

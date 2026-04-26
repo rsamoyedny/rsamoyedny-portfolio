@@ -1,112 +1,98 @@
 {
-    "featuredWork": {
+    "featuredProject": {
         "title": "Operation: Corvidae Disarm",
         "image": {
-            "src": "/default.jpg",
+            "src": "/OCD.png",
             "alt": ""
         },
         "tags": [
-            "VR",
-            "3D Modeling"
+            "C#", "C++", "Unity", "Arduino", "Blender"
+
         ],
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+        "description": "A two player Mixed Reality puzzle game. The two of you have been given a mission: disarm a bomb located somewhere in an office. One of you will be in VR, exploring the office, and the other will be the \"man in the chair,\" able to hack various devices with your console. Final project for XR Asset Production.",
+        "role": "Independently created. Modeled and textured props. Optimized lighting, graphics, and physics for Virtual Reality. Created an Arduino console that interacts with the game.",
         "link": {
-            "href": "google.com",
+            "href": "https://youtu.be/zwhfPdlJBmI",
             "text": "Watch Video"
         }
     },
     "projectsList": [
         {
             "title": "Escape Void",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "description": "An escape room puzzle game. You are trapped in the void, where there is nothing but you and some doors. Explore the rooms to try and find a way to escape. Final project for Introduction to Web Technology for Game Developers.",
+            "role": "Independently created. Programmed a scene system and a point and click gameplay mechanic. Drew custom sprites in Krita.",
             "image": {
-                "src": "/default.jpg",
-                "alt": ""
+                "src": "/EscapeVoid.png",
+                "alt": "In the void in Escape Void"
             },
             "tags": [
-                "VR",
-                "3D Modeling",
-                "Unity",
-                "Blender",
-                "C#",
-                "HTML",
-                "CSS",
-                "VR",
-                "3D Modeling"
+                "HTML/CSS",
+                "JavaScript",
+                "Krita"
             ],
             "link": {
-                "href": "google.com",
-                "text": "Play on Itch.io"
+                "href": "https://ry313.itch.io/escape-void",
+                "text": "Play on itch.io"
             }
         },
         {
-            "title": "Escape Void",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "title": "Search of the Cabin",
+            "description": "Explore a seemingly normal cabin, discovering the hidden lab found below. Something is in there. Final project for 3D Animation and Asset Production.",
+            "role": "Independently created. Modeled and textured environment, props, and character.",
             "image": {
-                "src": "/favicon.svg",
-                "alt": ""
+                "src": "/SearchOfTheCabin.png",
+                "alt": "Search of the Cabin basement lab"
             },
             "tags": [
-                "VR",
-                "3D Modeling",
-                "Unity"
+                "3D Art", "Maya", "Unity"
             ],
             "link": {
-                "href": "google.com",
-                "text": "Play on Itch.io"
+                "href": "https://ry313.itch.io/search-of-the-cabin",
+                "text": "Download on itch.io"
             }
         },
         {
-            "title": "Escape Void",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "title": "Highway to Hell: All Truck, No Treat",
+            "description": "You are a truck driver hauling a refrigerator container. The refrigerator is failing, so you must keep manually restarting it before it gets too hot. Beware of your passenger. Submission for the itch.io Scream Jam 2025.",
+            "role": "Collaborated in a group of four as the project manager and 3D artist. Incorporated agile project management. Facilitated meetings and managed internal due dates. Modeled and textured environment, props, and enemy.",
             "image": {
-                "src": "/favicon.svg",
-                "alt": ""
+                "src": "/HighwayToHell.png",
+                "alt": "Highway to Hell front view"
             },
             "tags": [
-                "VR",
-                "3D Modeling",
-                "Unity"
+                "Project Management", "3D Art", "Maya", "Unity"
             ],
             "link": {
-                "href": "google.com",
-                "text": "Play on Itch.io"
+                "href": "https://gfeldman120.itch.io/highway-to-hell-all-truck-no-treat",
+                "text": "Download on itch.io"
             }
         },
         {
-            "title": "Escape Void",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "title": "Dungeon Raiders",
+            "description": "A roguelike dungeon crawler where you must explore a randomly generated dungeon in search of treasure. Final project for Problem Solving with Data Structures and Algorithms for Games.",
+            "role": "Collaborated in a group of three as the level designer. Programmed procedural dungeon generation and difficulty scaling. Created an external tool to create files used in dungeon generation.",
             "image": {
-                "src": "/favicon.svg",
-                "alt": ""
+                "src": "/DungeonRaiders.png",
+                "alt": "Dungeon Raiders gameplay"
             },
             "tags": [
-                "VR",
-                "3D Modeling",
-                "Unity"
+                "Level Design", "C#", "MonoGame", "Windows Forms"
             ],
             "link": {
-                "href": "google.com",
-                "text": "Play on Itch.io"
+                "href": "https://genuinesanta.itch.io/dungeon-raider",
+                "text": "Download on itch.io"
             }
         },
         {
-            "title": "Escape Void",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
-            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "title": "Ritual Realties",
+            "description": "You are a realtor who specializes in the paranormal. Take pictures of your clients’ haunted houses, making sure to not to capture any hauntings along the way.",
+            "role": "Collaborated in a group of three as the project manager and 3D artist. Facilitated meetings and managed internal due dates. Modeled props and enemies. Still under development.",
             "image": {
-                "src": "/favicon.svg",
-                "alt": ""
+                "src": "/RitualRealties.png",
+                "alt": "Ritual Realties menu screen"
             },
             "tags": [
-                "VR",
-                "3D Modeling",
-                "Unity"
+                "Project Management", "3D Art", "Blender", "Unity"
             ]
         }
     ]
