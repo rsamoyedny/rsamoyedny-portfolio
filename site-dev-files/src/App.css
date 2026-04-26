@@ -118,7 +118,7 @@ nav ul {
 }
 
 nav a {
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -317,7 +317,7 @@ footer ul {
 }
 
 footer a {
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -332,6 +332,15 @@ footer a:active {
 }
 
 /*      Media Queries       */
+@media only screen and (min-width: 400px){
+    nav a {
+        font-size: 18px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+}
 
 @media only screen and (min-width: 475px) {
     header h1 {
@@ -343,7 +352,6 @@ footer a:active {
     }
 
     nav a {
-        font-size: 18px;
         padding: 7px 5px 5px;
     }
 
@@ -352,7 +360,6 @@ footer a:active {
     }
 
     footer a {
-        font-size: 18px;
         padding: 5px 5px;
     }
 }
