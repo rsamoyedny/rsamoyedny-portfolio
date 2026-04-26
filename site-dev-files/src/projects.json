@@ -1,0 +1,113 @@
+{
+    "featuredWork": {
+        "title": "Operation: Corvidae Disarm",
+        "image": {
+            "src": "/default.jpg",
+            "alt": ""
+        },
+        "tags": [
+            "VR",
+            "3D Modeling"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+        "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+        "link": {
+            "href": "google.com",
+            "text": "Watch Video"
+        }
+    },
+    "projectsList": [
+        {
+            "title": "Escape Void",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "image": {
+                "src": "/default.jpg",
+                "alt": ""
+            },
+            "tags": [
+                "VR",
+                "3D Modeling",
+                "Unity",
+                "Blender",
+                "C#",
+                "HTML",
+                "CSS",
+                "VR",
+                "3D Modeling"
+            ],
+            "link": {
+                "href": "google.com",
+                "text": "Play on Itch.io"
+            }
+        },
+        {
+            "title": "Escape Void",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "image": {
+                "src": "/favicon.svg",
+                "alt": ""
+            },
+            "tags": [
+                "VR",
+                "3D Modeling",
+                "Unity"
+            ],
+            "link": {
+                "href": "google.com",
+                "text": "Play on Itch.io"
+            }
+        },
+        {
+            "title": "Escape Void",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "image": {
+                "src": "/favicon.svg",
+                "alt": ""
+            },
+            "tags": [
+                "VR",
+                "3D Modeling",
+                "Unity"
+            ],
+            "link": {
+                "href": "google.com",
+                "text": "Play on Itch.io"
+            }
+        },
+        {
+            "title": "Escape Void",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "image": {
+                "src": "/favicon.svg",
+                "alt": ""
+            },
+            "tags": [
+                "VR",
+                "3D Modeling",
+                "Unity"
+            ],
+            "link": {
+                "href": "google.com",
+                "text": "Play on Itch.io"
+            }
+        },
+        {
+            "title": "Escape Void",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam est optio ab officiis, velit eligendi vero corporis! Iure voluptate dicta, velit reiciendis veritatis rerum dolorem similique perferendis",
+            "image": {
+                "src": "/favicon.svg",
+                "alt": ""
+            },
+            "tags": [
+                "VR",
+                "3D Modeling",
+                "Unity"
+            ]
+        }
+    ]
+}
