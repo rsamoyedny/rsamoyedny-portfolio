@@ -110,7 +110,7 @@ function App() {
           <li><a href="https://github.com/rsamoyedny">GitHub</a></li>
           <li><a href="https://ry313.itch.io/">itch.io</a></li>
           <li><a href="https://www.linkedin.com/in/rsamoyedny/">LinkedIn</a></li>
-          <li><a href="">My Resume [not finished]</a></li>
+          <li><a href="">My Resume</a></li>
         </ul>
       </footer>
     </>
