@@ -341,7 +341,7 @@ footer a:active {
 }
 
 /*      Media Queries       */
-@media only screen and (min-width: 330px) {
+@media only screen and (min-width: 340px) {
     nav ul {
         gap: 15px;
     }
@@ -351,7 +351,7 @@ footer a:active {
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 410px) {
     header h1 {
         font-size: 28px;
     }
@@ -397,7 +397,7 @@ footer a:active {
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 660px) {
     nav ul {
         gap: 50px;
     }
