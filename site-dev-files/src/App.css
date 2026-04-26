@@ -86,7 +86,7 @@ header {
 
 header h1 {
     margin: 25px 0 0;
-    font-size: 35px;
+    font-size: 25px;
     width: max-content;
     max-width: 70vw;
     min-width: 17ch;
@@ -113,7 +113,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -197,8 +197,10 @@ main {
     display: block;
     justify-self: center;
     align-self: center;
-    height: 175px;
+    max-width: 90%;
     aspect-ratio: 16/9;
+    max-height: 175px;
+    object-fit: contain;
     margin: 0;
 }
 
@@ -277,7 +279,6 @@ main {
     grid-area: projects;
     justify-self: center;
     max-width: 1300px;
-    margin: auto 20px;
 }
 
 #other-projects>ul {
@@ -312,7 +313,7 @@ footer ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -332,7 +333,25 @@ footer a:active {
 }
 
 /*      Media Queries       */
+@media only screen and (min-width: 330px){
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    footer ul {
+        gap: 15px;
+    }
+}
+
 @media only screen and (min-width: 400px){
+    header h1 {
+        font-size: 35px;
+    }
+
     nav a {
         font-size: 18px;
     }
