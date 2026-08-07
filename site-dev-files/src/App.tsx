@@ -107,10 +107,10 @@ function App() {
       </main>
       <footer id="links">
         <ul>
-          <li><a href="https://github.com/rsamoyedny">GitHub</a></li>
-          <li><a href="https://ry313.itch.io/">itch.io</a></li>
-          <li><a href="https://www.linkedin.com/in/rsamoyedny/">LinkedIn</a></li>
-          <li><a href="https://docs.google.com/document/d/10kD735E6_40acvlUz19-Lwtp1zcuFUmJMMnXnfeY4LI/export?format=pdf&attachment=false">My Resume</a></li>
+          <li><a href="https://github.com/rsamoyedny" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://ry313.itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a></li>
+          <li><a href="https://www.linkedin.com/in/rsamoyedny/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://docs.google.com/document/d/10kD735E6_40acvlUz19-Lwtp1zcuFUmJMMnXnfeY4LI/export?format=pdf&attachment=false" target="_blank" rel="noopener noreferrer">My Resume</a></li>
         </ul>
       </footer>
     </>
