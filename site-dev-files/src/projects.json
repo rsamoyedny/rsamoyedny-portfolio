@@ -18,6 +18,25 @@
     },
     "projectsList": [
         {
+            "title": "Changeling VR",
+            "description": "\"ChangelingVR is a virtual reality first-person interactive mystery. Enter the thoughts of each one you touch: A different memory, a different world, a different story.\" - Steam Description",
+            "role": "Worked on the Completed Levels and Debugging team. Focused on updating the dev controls system, redesigning parts of existing levels, and fixing bugs.",
+            "image": {
+                "src": "/ChangelingVR.jpg",
+                "alt": "Changeling VR logo"
+            },
+            "tags": [
+                "Debugging",
+                "Level Design",
+                "Unreal Engine",
+                "Visual Scripting"
+            ],
+            "link": {
+                "href": "https://changelingvr.vercel.app/",
+                "text": "Visit the Website"
+            }
+        },
+        {
             "title": "Escape Void",
             "description": "An escape room puzzle game. You are trapped in the void, where there is nothing but you and some doors. Explore the rooms to try and find a way to escape. Final project for Introduction to Web Technology for Game Developers.",
             "role": "Independently created. Programmed a scene system and a point and click gameplay mechanic. Drew custom sprites in Krita.",

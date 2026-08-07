@@ -94,7 +94,7 @@ function App() {
         <section id="about-me">
           <h2>About Me</h2>
           <div className='med-background'>
-            <p>Hello! I'm Ryan Samoyedny, a Game Design and Development Student at RIT. I have interests in web development, game programming, and 3D art. I have experience in Unity, MonoGame, Maya, Blender, Vite, and React. For languages, I have used: C#, C++, Python, HTML, CSS, JavaScript, and TypeScript for past projects.</p>
+            <p>Hello! I'm Ryan Samoyedny, a Game Design and Development Student at RIT. I have interests in web development, game programming, and 3D art. I have experience in Unity, Unreal Enging, MonoGame, Maya, Blender, Vite, and React. For languages, I have used: C#, C++, Python, HTML, CSS, JavaScript, TypeScript, and Blueprints Visual Scripting for past projects.</p>
             <p>Outside of games, I like to crochet and knit. I'm also the Vice President for <a href="https://campusgroups.rit.edu/han/home/">Hooks and Needles</a> at RIT.</p>
           </div>
         </section>
