@@ -37,7 +37,7 @@ function ProjectData({ project }: { project: project }) {
       </ul> : <></>}
       <p className="description">{project.description}</p>
       <p className="role">{project.role}</p>
-      {project.link ? <a href={project.link.href}>{project.link.text}</a> : <></>}
+      {project.link ? <a href={project.link.href} target="_blank" rel="noopener noreferrer">{project.link.text}</a> : <></>}
     </div>
   )
 }
