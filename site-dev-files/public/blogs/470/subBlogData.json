@@ -1,0 +1,20 @@
+{
+  "title": "IGME 470 Blog",
+  "posts": [
+    {
+      "name": "Test Post",
+      "path": "test-post",
+      "file": "test.md"
+    },
+    {
+      "name": "Test Post 2",
+      "path": "test-post-2",
+      "file": "test copy.md"
+    },
+    {
+      "name": "Test Post 3",
+      "path": "test-post-3",
+      "file": "test.md"
+    }
+  ]
+}

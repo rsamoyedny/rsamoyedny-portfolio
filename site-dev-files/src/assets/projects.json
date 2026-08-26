@@ -2,7 +2,7 @@
     "featuredProject": {
         "title": "Operation: Corvidae Disarm",
         "image": {
-            "src": "/OCD.png",
+            "src": "./project-images/OCD.png",
             "alt": ""
         },
         "tags": [
@@ -22,7 +22,7 @@
             "description": "\"ChangelingVR is a virtual reality first-person interactive mystery. Enter the thoughts of each one you touch: A different memory, a different world, a different story.\" - Steam Description",
             "role": "Worked on the Completed Levels and Debugging team. Focused on updating the dev controls system, redesigning parts of existing levels, and fixing bugs.",
             "image": {
-                "src": "/ChangelingVR.jpg",
+                "src": "./project-images/ChangelingVR.jpg",
                 "alt": "Changeling VR logo"
             },
             "tags": [
@@ -41,7 +41,7 @@
             "description": "An escape room puzzle game. You are trapped in the void, where there is nothing but you and some doors. Explore the rooms to try and find a way to escape. Final project for Introduction to Web Technology for Game Developers.",
             "role": "Independently created. Programmed a scene system and a point and click gameplay mechanic. Drew custom sprites in Krita.",
             "image": {
-                "src": "/EscapeVoid.png",
+                "src": "./project-images/EscapeVoid.png",
                 "alt": "In the void in Escape Void"
             },
             "tags": [
@@ -59,7 +59,7 @@
             "description": "Explore a seemingly normal cabin, discovering the hidden lab found below. Something is in there. Final project for 3D Animation and Asset Production.",
             "role": "Independently created. Modeled and textured environment, props, and character.",
             "image": {
-                "src": "/SearchOfTheCabin.png",
+                "src": "./project-images/SearchOfTheCabin.png",
                 "alt": "Search of the Cabin basement lab"
             },
             "tags": [
@@ -75,7 +75,7 @@
             "description": "You are a truck driver hauling a refrigerator container. The refrigerator is failing, so you must keep manually restarting it before it gets too hot. Beware of your passenger. Submission for the itch.io Scream Jam 2025.",
             "role": "Collaborated in a group of four as the project manager and 3D artist. Incorporated agile project management. Facilitated meetings and managed internal due dates. Modeled and textured environment, props, and enemy.",
             "image": {
-                "src": "/HighwayToHell.png",
+                "src": "./project-images/HighwayToHell.png",
                 "alt": "Highway to Hell front view"
             },
             "tags": [
@@ -91,7 +91,7 @@
             "description": "A roguelike dungeon crawler where you must explore a randomly generated dungeon in search of treasure. Final project for Problem Solving with Data Structures and Algorithms for Games.",
             "role": "Collaborated in a group of three as the level designer. Programmed procedural dungeon generation and difficulty scaling. Created an external tool to create files used in dungeon generation.",
             "image": {
-                "src": "/DungeonRaiders.png",
+                "src": "./project-images/DungeonRaiders.png",
                 "alt": "Dungeon Raiders gameplay"
             },
             "tags": [
@@ -107,7 +107,7 @@
             "description": "You are a realtor who specializes in the paranormal. Take pictures of your clients’ haunted houses, making sure to not to capture any hauntings along the way.",
             "role": "Collaborated in a group of three as the project manager and 3D artist. Facilitated meetings and managed internal due dates. Modeled props and enemies. Still under development.",
             "image": {
-                "src": "/RitualRealties.png",
+                "src": "./project-images/RitualRealties.png",
                 "alt": "Ritual Realties menu screen"
             },
             "tags": [
