@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom"
-import { FetchSubBlogData, type SubBlogData } from "../utils/BlogFetching";
+import { FetchBlogData, type SubBlogData } from "../utils/BlogFetching";
 import Markdown from 'markdown-to-jsx/react'
 
 export default function BlogPost() {
@@ -11,7 +11,7 @@ export default function BlogPost() {
 
   useEffect(() => {
     if (subBlogPath) {
-      FetchSubBlogData(subBlogPath, setSubBlogData)
+      FetchBlogData(subBlogPath, setSubBlogData)
     }
   }, [])
 
@@ -38,12 +38,14 @@ export default function BlogPost() {
           <ul>
             {
               postIndex - 1 >= 0
-                ? <li><Link to={`../${subBlogData.posts[postIndex - 1].path}`} reloadDocument>To Previous Post</Link></li> : <></>
+                ? <li><Link to={`../${subBlogData.posts[postIndex - 1].path}`} reloadDocument>To Previous Post</Link></li>
+                : <li><span>No Prevoius Posts</span></li>
             }
             <li><Link to="..">Back to Posts</Link></li>
             {
               postIndex + 1 < subBlogData.posts.length
-                ? <li><Link to={`../${subBlogData.posts[postIndex + 1].path}`} reloadDocument>To Next Post</Link></li> : <></>
+                ? <li><Link to={`../${subBlogData.posts[postIndex + 1].path}`} reloadDocument>To Next Post</Link></li>
+                : <li><span>No Prevoius Posts</span></li>
             }
           </ul>
         </nav>

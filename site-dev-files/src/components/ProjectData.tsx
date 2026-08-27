@@ -1,3 +1,5 @@
+import "./styles/ProjectData.css"
+
 export type Image = {
   src: string,
   alt: string
@@ -19,7 +21,7 @@ export type Project = {
 
 export default function ProjectData({ project }: { project: Project }) {
   return (
-    <div className="project med-background">
+    <div className="project-data med-background">
       <h3>{project.title}</h3>
       {project.image ? <img src={project.image.src} alt={project.image.alt} /> : <></>}
       {project.tags ? <ul>

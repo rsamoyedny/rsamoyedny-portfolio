@@ -7,8 +7,8 @@ export type SubBlogData = {
   }[]
 }
 
-export const FetchSubBlogData = (path: string, setPostsData: React.Dispatch<React.SetStateAction<SubBlogData | undefined>>) => {
-  return fetch(`/blogs/${path}/subBlogData.json`)
+export const FetchBlogData = (path: string, setPostsData: React.Dispatch<React.SetStateAction<SubBlogData | undefined>>) => {
+  return fetch(`/blogs/${path}/_subBlogData.json`)
     .then(result => result.json())
     .then(json => {setPostsData(json); return json;})
     .catch(e => console.log(e))
