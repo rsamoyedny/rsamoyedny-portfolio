@@ -17,7 +17,7 @@ export default function Landing() {
       <header id='landing__header'>
         <h1>Ryan Samoyedny's Portfolio</h1>
       </header>
-      <nav id='landing__nav'>
+      <nav id='landing__nav' className='nav-bar'>
         <ul>
           <li><a href="#landing__about-me">About Me</a></li>
           <li><a href="#landing__featured-project">Featured Project</a></li>

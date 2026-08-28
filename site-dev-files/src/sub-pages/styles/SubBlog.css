@@ -1,0 +1,10 @@
+#sub-blog{
+  max-width: 700px;
+  margin: 25px auto;
+}
+
+#sub-blog h1{
+  text-align: center;
+  text-wrap-style: balance;
+  margin-top: 10px;
+}

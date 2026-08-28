@@ -1,0 +1,18 @@
+#blog-post__nav ul{
+  flex: 1;
+}
+
+#blog-post__article{
+  max-width: 700px;
+  margin: 25px auto;
+}
+
+#blog-post__article h1{
+  text-align: center;
+  text-wrap-style: balance;
+  margin-top: 10px;
+}
+
+#blog-post__article p {
+  text-indent: 4rex;
+}

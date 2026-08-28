@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom"
 import { FetchBlogData, type SubBlogData } from "../utils/BlogFetching";
 import Markdown from 'markdown-to-jsx/react'
+import './styles/BlogPost.css'
 
 export default function BlogPost() {
   const { subBlogPath, postPath } = useParams();
@@ -23,7 +24,7 @@ export default function BlogPost() {
 
   useEffect(() => {
     if (subBlogData && postIndex >= 0) {
-      document.title = `${subBlogData.posts[postIndex].name} - ${subBlogData.title}`;
+      document.title = `${subBlogData.posts[postIndex].name} | ${subBlogData.title}`;
       fetch(`/blogs/${subBlogPath}/${subBlogData.posts[postIndex].file}`)
         .then(result => result.text())
         .then(text => setPost(text))
@@ -33,28 +34,28 @@ export default function BlogPost() {
 
   if (subBlogData && post) {
     return (
-      <>
-        <nav>
+      <div id="blog-post">
+        <nav id="blog-post__nav" className="nav-bar">
           <ul>
             {
               postIndex - 1 >= 0
                 ? <li><Link to={`../${subBlogData.posts[postIndex - 1].path}`} reloadDocument>To Previous Post</Link></li>
-                : <li><span>No Prevoius Posts</span></li>
+                : <li><span className="text--gray-l">No Older Posts</span></li>
             }
             <li><Link to="..">Back to Posts</Link></li>
             {
               postIndex + 1 < subBlogData.posts.length
                 ? <li><Link to={`../${subBlogData.posts[postIndex + 1].path}`} reloadDocument>To Next Post</Link></li>
-                : <li><span>No Prevoius Posts</span></li>
+                : <li><span className="text--gray-l">No Newer Posts</span></li>
             }
           </ul>
         </nav>
-        <article>
+        <article id="blog-post__article" className="med-background">
           <Markdown>
             {post}
           </Markdown>
         </article>
-      </>
+      </div>
     )
   }
   else {

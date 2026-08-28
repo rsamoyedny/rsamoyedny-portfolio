@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Landing from "./sub-pages/Landing";
 import SubBlog from "./sub-pages/SubBlog";
 import BlogPost from "./sub-pages/BlogPost";
+import "./App.css"
 
 export default function App() {
 	return (
