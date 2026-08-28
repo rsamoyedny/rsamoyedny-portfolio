@@ -1,0 +1,98 @@
+/*      Project Class       */
+.project-data {
+	display: grid;
+	grid-template-areas:
+		"title"
+		"image"
+		"tags"
+		"description"
+		"role"
+		"link";
+	grid-template-rows: min-content min-content auto auto auto min-content;
+	gap: 10px;
+	align-items: center;
+}
+
+.project-data h3 {
+	grid-area: title;
+	font-size: 20px;
+	margin: 0;
+	width: fit-content;
+	text-align: center;
+	justify-self: center;
+}
+
+.project-data img {
+	grid-area: image;
+	display: block;
+	justify-self: center;
+	align-self: center;
+	max-width: 90%;
+	aspect-ratio: 16/9;
+	height: 175px;
+	object-fit: contain;
+	margin: 0;
+}
+
+.project-data ul {
+	grid-area: tags;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.project-data ul>li {
+	display: block;
+	flex: 0 0 fit-content;
+	padding: 3px 6px;
+	color: var(--color-green-l);
+	border: 2px solid var(--color-green-m);
+	border-radius: 100px;
+	height: min-content;
+	font-size: 13px;
+}
+
+.project-data p {
+	text-indent: 2em;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.project-data p.description {
+	grid-area: description;
+}
+
+.project-data p.role {
+	grid-area: role;
+}
+
+.project-data a {
+	grid-area: link;
+	font-size: 20px;
+	display: block;
+	padding: 3px 30px;
+	border: 2px solid var(--color-purple-m);
+	border-radius: 100px;
+	text-decoration: none;
+	text-align: center;
+	width: fit-content;
+	justify-self: center;
+	margin: 0;
+}
+
+.project-data a:hover,
+.project-data a:focus,
+.project-data a:active {
+	border-color: var(--color-red-m);
+}
+
+@media only screen and (min-width: 550px) {
+	.project-data h3 {
+		text-wrap-style: balance;
+	}
+}
