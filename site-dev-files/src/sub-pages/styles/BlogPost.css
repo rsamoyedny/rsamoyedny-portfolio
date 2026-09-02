@@ -3,7 +3,8 @@
 }
 
 #blog-post__article{
-  max-width: 700px;
+  width: 700px;
+  max-width: 80vw;
   margin: 25px auto;
 }
 
@@ -15,4 +16,8 @@
 
 #blog-post__article p {
   text-indent: 4rex;
+}
+
+#blog-post__article a {
+  word-wrap: break-word;
 }
