@@ -10,6 +10,11 @@
       "name": "Digital Ins and Outs: Ultrasonic Sensed Colors",
       "path": "4-3_Ins_and_Outs",
       "file": "4-3 Ins and Outs.md"
+    },
+    {
+      "name": "Blink: Ultrasonic Sensed Drawings",
+      "path": "Blink",
+      "file": "Blink.md"
     }
   ]
 }
