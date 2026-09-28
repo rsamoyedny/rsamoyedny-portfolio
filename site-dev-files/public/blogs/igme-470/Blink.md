@@ -127,11 +127,14 @@ void loop() {
   // matrix
   for (int x = 0; x < MAX_X; x++) {
     for (int y = 0; y < MAX_Y; y++) {
+      // player position
+      if (x == playerPosX && y == playerPosY) {
+        matrix.setLed(0, x, y, playerBlinkState);
+        continue;
+      }
       matrix.setLed(0, x, y, frame[y][x]);
     }
   }
-  // player position
-  matrix.setLed(0, playerPosX, playerPosY, playerBlinkState);
 
   lastTimeStep = timeStep;
   delay(10);
