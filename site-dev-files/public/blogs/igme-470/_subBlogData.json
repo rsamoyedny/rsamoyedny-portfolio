@@ -12,14 +12,19 @@
       "file": "4-3 Ins and Outs.md"
     },
     {
-      "name": "Blink: Ultrasonic Sensed Drawings",
+      "name": "Project Blink: Ultrasonic Sensed Drawings",
       "path": "Blink",
       "file": "Blink.md"
     },
     {
-      "name": "Project Runway",
+      "name": "Project Runway: Free Spirit 5000",
       "path": "Runway",
       "file": "Runway.md"
+    },
+    {
+      "name": "Project Soundie",
+      "path": "Soundie",
+      "file": "Soundie.md"
     }
   ]
 }

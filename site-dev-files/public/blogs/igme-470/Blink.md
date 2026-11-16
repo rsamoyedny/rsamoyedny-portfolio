@@ -1,11 +1,8 @@
-# Blink: *Ultrasonic Sensed Drawing*
-***[This post is a work in progress]***
+# Project Blink: *Ultrasonic Sensed Drawing*
 
 For this project, I created an interactive canvas that can only be drawn on and viewed when the user is near the canvas. I used an LED matrix for the canvas, a joystick to move and draw, an ultrasonic distance sensor to get the user's distance, and a white LED to signal when the user is close enough to the canvas to draw.
 
 The canvas has two separate states, drawing and wiping, Drawing is when the user is within 60cm of the canvas (signaled by the white LED turning on). When drawing, the user can use the joystick to move the blinking cursor on the matrix and can press the joystick in to draw where the cursor is. Wiping is when the user is outside the 60cm range of the canvas (and the white LED is off). Here the player can't move and the cursor is gone. After one second of being in this state, the canvas starts to wipe. Every 1/10th of a second after wiping, one random column in the matrix will shift its pixel's states down by one. This creates an animation of the canvas being wiped away.
-
-**[WIP Narative/UX Paragraph]**
 
 My original goal for this project was to recreate an [Etch A Sketch](https://en.wikipedia.org/wiki/Etch_A_Sketch). The main difference was the user could tilt the whole circuit to wipe the board clean. I ended up changing this plan since the tilt sensor didn't work how I was imagining (I thought it would act like a gyroscope).
 
